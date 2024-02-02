@@ -1,0 +1,53 @@
+/* struttura base  */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.conteiner{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/* struttura base-fine  */
+
+/* header  */
+header{
+    background-color: #add8e6;
+    padding:16px 0;
+}
+header .conteiner{
+    display: flex;
+    
+}
+header .conteiner .col {
+    background-color: #daa520;
+}
+
+.col{
+    padding:15px 0 10px 0;
+    display: flex;
+}
+
+.col-25{
+    width: 25%;
+}
+.col-50{
+    width: 50%;
+}
+
+.de-bug{
+    border: 2px dashed #000000;
+}
+ 
+.col.col-50{
+    justify-content: center;
+}
+
+header .conteiner .col-25:first-child {
+    padding-left: 10px;
+}
+header .conteiner .col-25:nth-child(3) {
+  justify-content: flex-end;
+  padding-right: 10px;
+}
