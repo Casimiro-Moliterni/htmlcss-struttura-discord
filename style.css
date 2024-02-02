@@ -9,6 +9,10 @@
     max-width: 1200px;
     margin: 0 auto;
 }
+*.row{
+    padding-top:50px;
+    padding-bottom: 50px;
+}
 /* struttura base-fine  */
 
 /* header  */
@@ -51,3 +55,20 @@ header .conteiner .col-25:nth-child(3) {
   justify-content: flex-end;
   padding-right: 10px;
 }
+/* header - fine  */
+
+/* inizio main  */
+main .conteiner:first-child{
+    
+    background-color: #00008b;
+}
+
+.item-rosa{
+    width: 900px;
+    min-height:400px ;
+    background-color: #ee82ee;
+    margin:auto
+}
+
+
+/* fine main  */
