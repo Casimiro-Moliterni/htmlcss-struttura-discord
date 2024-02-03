@@ -19,6 +19,13 @@
     width: 60%;
 
 }
+.row-flex{
+    display: flex;
+}
+.padding-row{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
 
 /* struttura base-fine  */
 
@@ -66,39 +73,30 @@ header .conteiner .col-25:nth-child(3) {
 
 /* inizio main  */
 /* prima section  */
- .section-a{
-    
-    background-color: #00008b;
-}
 .item-rosa{
     width: 900px;
     min-height:400px ;
     background-color: #ee82ee;
     margin:auto
 }
-.padding-row{
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
 /* seconda section  */
+/* fine main  */
 
-.item-blu{
+/* color  */
+.section-a{
+    
+    background-color: #00008b;
+}
+.bg-section-color{
+    width: 100%;
+    background-color: white;
+ }
+ .bg-grey{
+    background-color:#d3d3d3 ;
+ }
+ .item-blu{
     background-color: #1e90ff;
 }
 .item-salmone{
     background-color: #ffc0cb;
 }
-main .conteiner .section-b{
-    background-color: #ffffff;
-    
-}
- .section-b .row{
-    display: flex;
- }
-
- main .section-b{
-    width: 100%;
-    background-color: white;
- }
-
-/* fine main  */
