@@ -9,6 +9,11 @@
     max-width: 1200px;
     margin: 0 auto;
 }
+
+.item{
+    width: 100%;
+    min-height: 900px;
+}
 .item-40{
     min-height: 500px;
     width: 40%;
@@ -99,4 +104,7 @@ header .conteiner .col-25:nth-child(3) {
 }
 .item-salmone{
     background-color: #ffc0cb;
+}
+.item-green{
+    background-color: #228b22;
 }
