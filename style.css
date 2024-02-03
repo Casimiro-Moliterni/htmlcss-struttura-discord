@@ -9,21 +9,6 @@
     max-width: 1200px;
     margin: 0 auto;
 }
-
-.item{
-    width: 100%;
-    min-height: 900px;
-}
-.item-40{
-    min-height: 500px;
-    width: 40%;
-
-}
-.item-60{
-    min-height: 500px;
-    width: 60%;
-
-}
 .row-flex{
     display: flex;
 }
@@ -31,7 +16,10 @@
     padding-top: 50px;
     padding-bottom: 50px;
 }
-
+.padding-footer{
+    padding-top:10px;
+    padding-bottom: 40px;
+}
 /* struttura base-fine  */
 
 /* header  */
@@ -59,10 +47,6 @@ header .conteiner .col {
     width: 50%;
 }
 
-.de-bug{
-    border: 2px dashed #000000;
-}
- 
 .col.col-50{
     justify-content: center;
 }
@@ -77,15 +61,43 @@ header .conteiner .col-25:nth-child(3) {
 /* header - fine  */
 
 /* inizio main  */
-/* prima section  */
+
+/* regole di base x section item col  */
+
+/* item  */
+.item{
+    width: 100%;
+    min-height: 900px;
+}
 .item-rosa{
     width: 900px;
     min-height:400px ;
     background-color: #ee82ee;
     margin:auto
 }
-/* seconda section  */
-/* fine main  */
+.item-40{
+    min-height: 500px;
+    width: 40%;
+
+}
+.item-60{
+    min-height: 500px;
+    width: 60%;
+
+}
+/* fine item  */
+/* col  */
+.col-25{
+    width: 25%;
+}
+.col-50{
+    width: 50%;
+}
+
+
+.de-bug{
+    border: 2px dashed #000000;
+}
 
 /* color  */
 .section-a{
@@ -108,3 +120,7 @@ header .conteiner .col-25:nth-child(3) {
 .item-green{
     background-color: #228b22;
 }
+footer{
+    background-color: #23272a;
+}
+/* fine main  */
