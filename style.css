@@ -16,10 +16,7 @@
     padding-top: 50px;
     padding-bottom: 50px;
 }
-footer{ 
-    padding-top:10px;
-    padding-bottom: 40px;
-}
+
 /* struttura base-fine  */
 
 /* header  */
@@ -104,7 +101,7 @@ header .conteiner .col-25:nth-child(3) {
     
     background-color: #00008b;
 }
-.bg-section-color{
+.bg-color{
     width: 100%;
     background-color: white;
  }
@@ -120,7 +117,7 @@ header .conteiner .col-25:nth-child(3) {
 .item-green{
     background-color: #228b22;
 }
-footer{
+.bg-darkgrey{
     background-color: #23272a;
 }
 .bg-darksalmon{
@@ -136,4 +133,14 @@ footer{
 /* inizio footer  */
  .col-30 .de-bug{
     border-right: 2px dashed #000000;
+}
+.box-footer{ 
+    padding-top:10px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #9a9a9a;
+}
+
+.submit{
+    padding-top: 30px;
+    
 }
