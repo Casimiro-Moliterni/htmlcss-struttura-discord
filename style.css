@@ -136,11 +136,29 @@ header .conteiner .col-25:nth-child(3) {
 }
 .box-footer{ 
     padding-top:10px;
-    padding-bottom: 40px;
     border-bottom: 1px solid #9a9a9a;
 }
+.box-footer:nth-last-child(){
+    background-color: #00008b;
+}
 
-.submit{
+.box-footer-2{
+    border-top: 1px solid white;
     padding-top: 30px;
-    
+}
+.box-footer-2 > .conteiner{
+    justify-content: space-between;
+    background-color: #7fffd4;
+    padding-top:25px;
+    padding-bottom: 22px;
+}
+
+.logo-footer,.button-footer{
+    padding: 10px;
+    background-color: #ffb6c1;
+}
+
+/* tipografy  */
+*{
+    font-size: 20px;
 }
