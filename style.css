@@ -64,12 +64,20 @@ header .conteiner .col-25:nth-child(3) {
     width: 100%;
     min-height: 900px;
 }
+.section-a > .box{
+    justify-content: center;
+}
 .item-rosa{
     width: 900px;
     min-height:400px ;
     background-color: #ee82ee;
-    margin:auto
+    justify-content: center;  
 }
+/* secona section  */
+.border-section{
+    border-top: 1px solid #add8e6;
+}
+
 .item-40{
     min-height: 500px;
     width: 40%;
