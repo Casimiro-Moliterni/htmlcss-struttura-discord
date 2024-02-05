@@ -152,12 +152,10 @@ footer>.box-footer{
     background-color: #00008b;
 }
 
-.box-footer-2{
-    border-top: 1px solid white;
-    border-bottom: 1px solid white;
-    padding-top: 30px;
+.box-footer-2{ 
+   margin-top: 30px;
 }
-.box-footer-2 > .conteiner{
+.conteiner .box-footer-2 {
     justify-content: space-between;
     background-color: #7fffd4;
     padding-top:25px;
